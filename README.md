@@ -14,6 +14,22 @@
 </div>  
 <!-- END -->
 
+#### Obsidian (optional) 
+install homebrew:
+- `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+download obisian:
+`brew install --cask obsidian`
+
+now:
+`mkdir ~/aharoJ && cd ~/aharoJ && git clone https`
+
+last:
+open path w/ **obsidian**: FHWA/DOCS
+
+
+
+
 
 
 # TREE:
