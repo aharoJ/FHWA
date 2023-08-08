@@ -14,7 +14,7 @@
 </div>  
 <!-- END -->
 
-#### Obsidian (optional) 
+### Obsidian (optional but recommended) 
 install homebrew:
 
 ```
