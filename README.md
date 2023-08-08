@@ -25,9 +25,9 @@ now:
 `mkdir ~/aharoJ && cd ~/aharoJ && git clone https`
 
 last:
-> open path w/ `obsidian` 
+open path w/ `obsidian` 
 
-~/aharoJ/FHWA/DOCS
+>   ~/aharoJ/FHWA/DOCS
 
 
 
