@@ -21,11 +21,10 @@ install homebrew:
 download obisian:
 `brew install --cask obsidian`
 
-now:
+1) now
 `mkdir ~/aharoJ && cd ~/aharoJ && git clone https`
 
-last:
-open path w/ `obsidian` 
+2) open path w/ `obsidian` 
 
 >   ~/aharoJ/FHWA/DOCS
 
