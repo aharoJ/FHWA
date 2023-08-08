@@ -16,18 +16,19 @@
 
 #### Obsidian (optional) 
 install homebrew:
-- `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 
 download obisian:
-`brew install --cask obsidian`
+```brew install --cask obsidian```
 
 1) now
 `mkdir ~/aharoJ && cd ~/aharoJ && git clone https`
 
-2) open path w/ `obsidian` 
+1) open path w/ `obsidian` 
 
->   ~/aharoJ/FHWA/DOCS
-
+```
+~/aharoJ/FHWA/DOCS
+```
 
 
 
