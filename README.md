@@ -14,7 +14,7 @@
 </div>  
 <!-- END -->
 
-# Setup
+## Setup
 
 > copy and paste the CLI command into your OS ( macos | linux | debian )
 
@@ -37,17 +37,31 @@ git clone https://github.com/aharoJ/FHWA.git && cd ~/aharoJ/FHWA && sudo ./setup
 
 
 
-# TREE
+## TREE
 
+### documentation
 - docker
 - carla
+- unreal
 - openpilot
 - pip | pip3
 - pyenv
-- poetry
+- poetry shell
   - extremly important for openpilot
 - carma
-- unreal
 - ubuntu
 - bash
 - cuda | nvidia
+
+### reverse engineering
+- bashrc
+- fish
+- vim
+- tmux
+- docker
+- python 
+
+
+
+## dev notes
+> In summary, my script automates the setup process for me. It starts by installing Homebrew, which is the macOS package manager. Then, it handles the installation of Obsidian and yakitrak/obs using Homebrew on macOS. For Linux users, it prompts me to choose between installing Obsidian using Homebrew or Snap. After that, the script goes on to clone my GitHub repository. It takes care of opening Obsidian and various code editors in their designated directories. Once everything is set up, I receive a completion message.
