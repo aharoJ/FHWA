@@ -23,13 +23,13 @@
 ### macos
 
 ```
-git clone https://github.com/aharoJ/FHWA.git && cd ~/aharoJ/FHWA && chmod +x setup.sh && ./setup.sh
+cd ~ && mkdir aharoJ && git clone https://github.com/aharoJ/FHWA.git && cd FHWA && chmod +x setup.sh && ./setup.sh 
 ```
 
 ### debian | ubuntu
 
 ```
-sudo apt update && sudo apt-get install build-essential && sudo apt install git -y && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.bashrc && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)" && cd ~ && mkdir aharoJ && git clone https://github.com/aharoJ/FHWA.git && cd FHWA && chmod +x setup.sh && ./setup.sh && sudo snap install obsidian --classic
+sudo apt update && sudo apt-get install build-essential && sudo apt install git -y && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.bashrc && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)" && cd ~ && mkdir aharoJ && git clone https://github.com/aharoJ/FHWA.git && cd FHWA && chmod +x setup.sh && ./setup.sh  && sudo snap install obsidian --classic
 ```
 
 ### windows
