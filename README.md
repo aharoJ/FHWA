@@ -64,6 +64,16 @@ git clone https://github.com/aharoJ/FHWA.git && cd ~/aharoJ/FHWA && sudo ./setup
 - docker
 - python
 
+
+## workflow
+![Alt text](<z/aharo 2023-07-30 at 6.40.58 PM.png>)
+
+![Alt text](<z/aharo 2023-07-31 at 2.34.10 AM.png>)
+
+![Alt text](<z/aharo 2023-06-26 at 11.21.44 AM.png>)
+
+![Alt text](<z/aharo 2023-06-28 at 8.21.15 AM (2).png>)
+
 ## dev notes
 >
 > In summary, my script starts by installing Homebrew, which is the macOS package manager. Then, it handles the installation of Obsidian and yakitrak/obs using Homebrew on macOS. For Linux users, it prompts to choose between installing Obsidian using Homebrew or Snap (recommend Homebrew!). After that, the script goes on to clone my GitHub repository. It takes care of opening Obsidian and various code editors in their designated directories.
