@@ -73,19 +73,19 @@ clone_repo_and_open_obsidian() {
 	repo_url="https://github.com/aharoJ/FHWA.git"
 
 	# Check if ~/aharoJ directory already exists
-	if [ -d ~/aharoJ ]; then
-		echo "The ~/aharoJ directory already exists."
+	if [ -d ~/$HOME/aharoJ ]; then
+		echo "The ~/$HOME/aharoJ directory already exists."
 	else
-		mkdir -p ~/aharoJ
-		echo "Created the ~/aharoJ directory."
+		mkdir -p ~/$HOME/aharoJ
+		echo "Created the ~/$HOME/aharoJ directory."
 	fi
 
 	# Clone the repository
-	cd ~/aharoJ
+	cd ~/$HOME/aharoJ
 	git clone "$repo_url"
 
 	# Navigate to the specified path and open Obsidian
-	cd ~/aharoJ/FHWA/DOCS
+	cd ~/$HOME/aharoJ/FHWA/DOCS
 
 	# Check the operating system
 	if [[ "$OSTYPE" == "darwin"* ]]; then
