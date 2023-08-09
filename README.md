@@ -14,6 +14,8 @@
 </div>  
 <!-- END -->
 
+![Reverse Engineering OpenPilot](<z/aharo 2023-07-31 at 2.34.10 AM.png>)
+
 ## Setup
 
 > copy and paste the CLI command into your OS ( macos | linux | debian )
