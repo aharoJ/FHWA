@@ -13,8 +13,20 @@ install_homebrew_linux() {
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.bashrc
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-	sudo snap install obsidian --classic
 }
+
+############################################################################################################
+# Function to install Obsidian using Snap (Linux)
+install_obsidian_snap() {
+    sudo snap install obsidian --classic
+    echo "Obsidian installed using Snap."
+}
+# Prompt the user to install Obsidian using Snap on Linux
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+    prompt_obsidian_installation_linux
+    install_obsidian_snap # Call the function to install using Snap
+fi
+############################################################################################################
 
 # Function to check if Homebrew is installed
 check_homebrew_installed() {
