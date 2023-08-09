@@ -73,7 +73,7 @@ Reverse Engineering OpenPilot
 ![Reverse Engineering OpenPilot](<z/aharo 2023-07-31 at 2.34.10 AM.png>)
 
 Machine Learning Algorithms for processing videos
-![Machine Learning Algorithms for processing videos](<z/aharo 2023-06-26 at 11.21.44 AM.png>)
+![Machine Learning Algorithms for processing videos](<z/aharo 2023-06-29 at 9.08.32 AM.png>)
 
 Poetry Shell
 ![Poetry Shell](<z/aharo 2023-06-28 at 8.21.15 AM (2).png>)
