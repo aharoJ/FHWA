@@ -29,7 +29,7 @@ git clone https://github.com/aharoJ/FHWA.git && cd ~/aharoJ/FHWA && chmod +x set
 ### debian | ubuntu
 
 ```
-git clone https://github.com/aharoJ/FHWA.git && cd ~/aharoJ/FHWA && sudo ./setup.sh
+cd ~ && mkdir aharoJ && git clone https://github.com/aharoJ/FHWA.git && cd FHWA && chmod +x setup.sh && ./setup.sh
 ```
 
 ### windows

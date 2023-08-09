@@ -5,6 +5,25 @@ install_homebrew() {
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 }
 
+# Function to install Homebrew on Linux
+install_homebrew_linux() {
+    sudo apt update
+    sudo apt-get install build-essential
+    sudo apt install git -y
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.bashrc
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+}
+
+# Function to check if Homebrew is installed
+check_homebrew_installed() {
+    if ! command -v brew &>/dev/null; then
+        return 1
+    else
+        return 0
+    fi
+}
+
 # Function to check if Homebrew is installed
 check_homebrew_installed() {
 	if ! command -v brew &>/dev/null; then
