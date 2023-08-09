@@ -107,6 +107,7 @@ clone_repo_and_open_obsidian() {
 	# Check if ~/aharoJ directory already exists
 	if [ -d ~/aharoJ ]; then
 		echo "The ~/aharoJ directory already exists."
+		    cd ~/aharoJ
 	else
 		mkdir -p ~/aharoJ
 		echo "Created the ~/aharoJ directory."
