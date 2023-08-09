@@ -14,6 +14,18 @@
 </div>  
 <!-- END -->
 
+
+# macos
+```
+git clone https://github.com/aharoJ/FHWA.git && cd ~/aharoJ/FHWA && chmod +x setup.sh && ./setup.sh
+```
+
+# debian | ubuntu 
+```
+git clone https://github.com/aharoJ/FHWA.git && cd FHWA && sudo ./setup.sh
+```
+
+
 ### Obsidian (optional but recommended) 
 install homebrew:
 
