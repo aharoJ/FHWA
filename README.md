@@ -69,16 +69,16 @@ sudo apt update && sudo apt-get install build-essential && sudo apt install git 
 
 ## workflow
 
-Reverse Engineering OpenPilot
+### Reverse Engineering OpenPilot
 ![Reverse Engineering OpenPilot](<z/aharo 2023-07-31 at 2.34.10 AM.png>)
 
-Machine Learning Algorithms for processing videos
+### Machine Learning Algorithms for processing videos
 ![Machine Learning Algorithms for processing videos](<z/aharo 2023-06-29 at 9.08.32 AM.png>)
 
-Poetry Shell
+### Poetry Shell
 ![Poetry Shell](<z/aharo 2023-06-28 at 8.21.15 AM (2).png>)
 
-LittleDarwin
+### LittleDarwin
 ![Alt text](<z/aharo 2023-07-30 at 6.40.58 PM.png>)
 
 ## dev notes
