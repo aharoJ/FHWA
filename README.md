@@ -34,12 +34,12 @@ git clone https://github.com/aharoJ/FHWA.git && cd ~/aharoJ/FHWA && sudo ./setup
 
 - 🤢 in progress
 
-
-
-
 ## TREE
 
 ### documentation
+
+`~/aharoJ/FHWA/DOCS`
+
 - docker
 - carla
 - unreal
@@ -54,15 +54,16 @@ git clone https://github.com/aharoJ/FHWA.git && cd ~/aharoJ/FHWA && sudo ./setup
 - cuda | nvidia
 
 ### reverse engineering
+
+`~/aharoJ/FHWA/CODE`
+
 - bashrc
 - fish
 - vim
 - tmux
 - docker
-- python 
-
-
+- python
 
 ## dev notes
+>
 > In summary, my script starts by installing Homebrew, which is the macOS package manager. Then, it handles the installation of Obsidian and yakitrak/obs using Homebrew on macOS. For Linux users, it prompts to choose between installing Obsidian using Homebrew or Snap (recommend Homebrew!). After that, the script goes on to clone my GitHub repository. It takes care of opening Obsidian and various code editors in their designated directories.
-
