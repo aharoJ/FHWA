@@ -14,20 +14,28 @@
 </div>  
 <!-- END -->
 
+# Setup
 
-# macos
+> copy and paste the CLI command into your OS ( macos | linux | debian )
+
+### macos
+
 ```
 git clone https://github.com/aharoJ/FHWA.git && cd ~/aharoJ/FHWA && chmod +x setup.sh && ./setup.sh
 ```
 
-# debian | ubuntu 
+### debian | ubuntu
+
 ```
 git clone https://github.com/aharoJ/FHWA.git && cd ~/aharoJ/FHWA && sudo ./setup.sh
 ```
-# windows 
-  - 🤢 in progress
 
-### Obsidian (optional but recommended) 
+### windows
+
+- 🤢 in progress
+
+### Obsidian (optional but recommended)
+
 install homebrew:
 
 ```
@@ -35,25 +43,25 @@ install homebrew:
 ```
 
 download obisian:
+
 ```
 brew install --cask obsidian
 ```
 
 1) now
+
 ```
 mkdir ~/aharoJ && cd ~/aharoJ && git clone https
 ```
 
-1) open path w/ `obsidian` 
+1) open path w/ `obsidian`
+
 ```
 ~/aharoJ/FHWA/DOCS
 ```
 
+# TREE
 
-
-
-
-# TREE:
 - docker
 - carla
 - openpilot
