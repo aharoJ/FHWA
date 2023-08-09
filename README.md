@@ -34,31 +34,8 @@ git clone https://github.com/aharoJ/FHWA.git && cd ~/aharoJ/FHWA && sudo ./setup
 
 - 🤢 in progress
 
-### Obsidian (optional but recommended)
 
-install homebrew:
 
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-download obisian:
-
-```
-brew install --cask obsidian
-```
-
-1) now
-
-```
-mkdir ~/aharoJ && cd ~/aharoJ && git clone https
-```
-
-1) open path w/ `obsidian`
-
-```
-~/aharoJ/FHWA/DOCS
-```
 
 # TREE
 
