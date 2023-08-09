@@ -64,4 +64,5 @@ git clone https://github.com/aharoJ/FHWA.git && cd ~/aharoJ/FHWA && sudo ./setup
 
 
 ## dev notes
-> In summary, my script automates the setup process for me. It starts by installing Homebrew, which is the macOS package manager. Then, it handles the installation of Obsidian and yakitrak/obs using Homebrew on macOS. For Linux users, it prompts me to choose between installing Obsidian using Homebrew or Snap. After that, the script goes on to clone my GitHub repository. It takes care of opening Obsidian and various code editors in their designated directories. Once everything is set up, I receive a completion message.
+> In summary, my script starts by installing Homebrew, which is the macOS package manager. Then, it handles the installation of Obsidian and yakitrak/obs using Homebrew on macOS. For Linux users, it prompts to choose between installing Obsidian using Homebrew or Snap (recommend Homebrew!). After that, the script goes on to clone my GitHub repository. It takes care of opening Obsidian and various code editors in their designated directories.
+
