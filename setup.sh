@@ -85,7 +85,7 @@ clone_repo_and_open_obsidian() {
 	git clone "$repo_url"
 
 	# Navigate to the specified path and open Obsidian
-	cd $HOME/aharoJ/FHWA/DOCS
+	cd FHWA/DOCS
 
 	# Check the operating system
 	if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -101,7 +101,7 @@ clone_repo_and_open_obsidian() {
 
 
 	# Navigate to the specified path
-	cd ~/aharoJ/FHWA/CODE
+	cd FHWA/CODE
 
 	# Check which editors are available and open the directory
 	if command -v code &> /dev/null; then
