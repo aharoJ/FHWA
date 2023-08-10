@@ -5,7 +5,7 @@
 Each number correspond to the Ticket number --> sections 
 - ClickUp Set up
 - my work 
-	- ![](aharo%202023-06-12%20at%2010.26.28%20AM.png)
+	- ![](../../z/aharo%202023-06-12%20at%2010.26.28%20AM.png)
 
 
 
@@ -16,17 +16,17 @@ Each number correspond to the Ticket number --> sections
 - Pelco
 - LIDAR
 
-![](aharo%202023-06-12%20at%202.08.04%20PM.png)
+![](../../z/aharo%202023-06-12%20at%202.08.04%20PM.png)
 
 
-![](aharo%202023-06-12%20at%202.22.19%20PM.png)
+![](../../z/aharo%202023-06-12%20at%202.22.19%20PM.png)
 
 
-![](aharo%202023-06-12%20at%202.27.46%20PM.png)
+![](../../z/aharo%202023-06-12%20at%202.27.46%20PM.png)
 
-![](aharo%202023-06-12%20at%202.30.37%20PM.png)
+![](../../z/aharo%202023-06-12%20at%202.30.37%20PM.png)
 
-![](aharo%202023-06-12%20at%202.53.59%20PM.png)
+![](../../z/aharo%202023-06-12%20at%202.53.59%20PM.png)
 
 
 

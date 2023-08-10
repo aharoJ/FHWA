@@ -69,7 +69,7 @@ poetry install
 
 ### walktrough  images
 
-- ![](aharo%202023-06-29%20at%209.08.32%20AM.png)
+- ![](../../../../z/aharo%202023-06-29%20at%209.08.32%20AM.png)
 
 
 

@@ -66,7 +66,7 @@ ninja -C build
 
 
 Steps:
-![](aharo%202023-06-19%20at%2011.59.39%20AM.png)
+![](../../z/aharo%202023-06-19%20at%2011.59.39%20AM.png)
 - libvmat
 - ffmpeg
 
@@ -82,7 +82,7 @@ Steps:
 
 
 #### attempts
-- [ ] ![](aharo%202023-06-19%20at%205.48.44%20PM.png)
+- [ ] ![](../../z/aharo%202023-06-19%20at%205.48.44%20PM.png)
 
 
 
