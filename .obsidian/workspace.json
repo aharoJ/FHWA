@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "DOCS/comma.ai/openpilot/selfdrive/manager.py.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50043487548828
+    "width": 606.5
   },
   "right": {
     "id": "3d9abcf7bb01cf4e",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "DOCS/comma.ai/openpilot/selfdrive/manager.py.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "DOCS/comma.ai/openpilot/selfdrive/manager.py.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "DOCS/comma.ai/openpilot/selfdrive/manager.py.md"
               }
             }
           },
@@ -165,8 +165,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "813abd33e84e96c3",
+  "active": "1dc66a6269179c06",
   "lastOpenFiles": [
+    "DOCS/comma.ai/openpilot/poetry shell/main.md",
+    "README.md",
+    "dev/depthhh/1/2/3/4/5/6",
+    "dev/depthhh/1/2/3/4/5",
+    "dev/depthhh/1/2/3/4",
+    "dev/depthhh/1/2/3",
+    "dev/depthhh/1/2",
+    "dev/depthhh/1",
+    "dev/depthhh",
     "comma.ai/tools/config/tom issues.md",
     "comma.ai/tools/config/pyproject.toml.md",
     "vmfa/meetings.md",
@@ -178,7 +187,6 @@
     "Untitled 1",
     "nvidia && cuda",
     "comma.ai/openpilot/main.md",
-    "README.md",
     "carla/carla.md",
     "carla/make launch.md",
     "unreal/main.md",
@@ -193,17 +201,9 @@
     "vmfa/tester.md",
     "z/aharo 2023-08-06 at 9.51.17 PM.png",
     "unreal",
-    "comma.ai/pip && pyenv",
-    "comma.ai/Untitled 1",
-    "comma.ai/poetry shell",
     "docker/src.md",
     "docker/main.md",
     "bashrc/plugins/z for bash.md",
-    "bashrc/plugins",
-    "bashrc",
-    "cli.md",
-    "ankur/meetings",
-    "vmfa",
     "z/aharo24_149.png",
     "z/aharo24_148.png",
     "z/aharo 2023-06-29 at 9.08.32 AM.png",

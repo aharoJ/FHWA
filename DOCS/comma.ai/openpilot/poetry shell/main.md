@@ -1,9 +1,12 @@
 
-# OPENPILOT  NOT WORKING 
+# OPENPILOT  NOT WORKING
+>
 > EXTREMLY IMPORTANT
-- https://github.com/pyenv/pyenv/issues/1737
 
-## My solution 
+- <https://github.com/pyenv/pyenv/issues/1737>
+
+## My solution
+
 First of all see the situation with this command
 
 ```python
@@ -38,13 +41,13 @@ should return `nothing`.
 if issue: drop to src ? continue;
 ```
 
-(*optional*) Then you do:
+(_optional_) Then you do:
 
 ```python
 which python3
 ```
 
-(*optional*)  and, if the version is ok, you use this same exact output of the path of python, to tell to poetry (Example):
+(_optional_)  and, if the version is ok, you use this same exact output of the path of python, to tell to poetry (Example):
 
 ```python
 poetry env use /usr/bin/python3
@@ -65,22 +68,21 @@ poetry install
 ```
 
 ### walktrough  images
+
 - ![](aharo%202023-06-29%20at%209.08.32%20AM.png)
-- ![original post](<../../z/aharo 2023-08-06 at 9.51.17 PM.png>)
 
 
 
-### POETRY INSTALL 
+
+### POETRY INSTALL
+>
 > I strongly advise to use 3.8.#
 
 - [use 3.8 for openpilot](https://stackoverflow.com/questions/59810276/poetry-doesnt-use-the-correct-version-of-python)
 
+### PYTHON INSTALL MANUAL
 
-### PYTHON INSTALL MANUAL 
- - manual install for 3.8
-	 - https://www.python.org/ftp/python/
-		 - (remember this is different from poetry shell)
-		 - this step not **req**, but in-case...
-
-
-
+- manual install for 3.8
+  - <https://www.python.org/ftp/python/>
+    - (remember this is different from poetry shell)
+    - this step not **req**, but in-case...
