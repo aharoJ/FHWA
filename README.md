@@ -16,7 +16,7 @@
 
 ![Reverse Engineering OpenPilot](<z/aharo 2023-07-31 at 2.34.10 AM.png>)
 
-## Setup
+# Setup
 
 > copy and paste the CLI command into your OS ( macos | linux | debian )
 
@@ -36,7 +36,7 @@ sudo apt update && sudo apt-get install build-essential && sudo apt install git 
 
 - 🤢 in progress
 
-<h3 align="center"> <b> Tree </b> </h3>
+<h1 align="center"> <b> Tree </b> </h1>
 
 ## documentation
 
