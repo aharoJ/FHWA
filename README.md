@@ -36,11 +36,11 @@ sudo apt update && sudo apt-get install build-essential && sudo apt install git 
 
 - 🤢 in progress
 
-## TREE
+<h3 align="center"> <b> Tree </b> </h3>
 
-### documentation
+## documentation
 
-`~/aharoJ/FHWA/DOCS`
+### `~/aharoJ/FHWA/DOCS`
 
 - docker
 - carla
@@ -55,9 +55,9 @@ sudo apt update && sudo apt-get install build-essential && sudo apt install git 
 - bash
 - cuda | nvidia
 
-### code stuff
+## code stuff
 
-`~/aharoJ/FHWA/CODE`
+### `~/aharoJ/FHWA/CODE`
 
 - bashrc
 - fish
