@@ -16,7 +16,7 @@
 
 ![Reverse Engineering OpenPilot](<z/aharo 2023-07-31 at 2.34.10 AM.png>)
 
-# Setup
+<h1 align="center"> <b> Set-up </b> </h1>
 
 > copy and paste the CLI command into your OS ( macos | linux | debian )
 
