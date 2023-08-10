@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOCS/comma.ai/openpilot/selfdrive/manager.py.md",
+                "file": "DOCS/comma.ai/openpilot/tools/config/pyproject.toml.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DOCS/comma.ai/openpilot/selfdrive/manager.py.md",
+                "file": "DOCS/comma.ai/openpilot/tools/config/pyproject.toml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DOCS/comma.ai/openpilot/selfdrive/manager.py.md",
+                "file": "DOCS/comma.ai/openpilot/tools/config/pyproject.toml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DOCS/comma.ai/openpilot/selfdrive/manager.py.md"
+                "file": "DOCS/comma.ai/openpilot/tools/config/pyproject.toml.md"
               }
             }
           },
@@ -165,8 +165,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1dc66a6269179c06",
+  "active": "813abd33e84e96c3",
   "lastOpenFiles": [
+    "DOCS/comma.ai/openpilot/pip && pyenv/src.md",
+    "DOCS/comma.ai/openpilot/selfdrive/manager.py.md",
+    "DOCS/comma.ai/openpilot/sim/running the simulation.md",
+    "DOCS/comma.ai/openpilot/sim/issues && fixes.md",
+    "DOCS/comma.ai/openpilot/tools/config/tom issues.md",
+    "DOCS/comma.ai/openpilot/tools/config/pyproject.toml.md",
     "DOCS/comma.ai/openpilot/poetry shell/main.md",
     "README.md",
     "dev/depthhh/1/2/3/4/5/6",
@@ -196,14 +202,8 @@
     "comma.ai/pip && pyenv/src.md",
     "carla/map.md",
     "carma/what is carma.md",
-    "carma/main.md",
-    "comma.ai/poetry shell/main.md",
-    "vmfa/tester.md",
     "z/aharo 2023-08-06 at 9.51.17 PM.png",
     "unreal",
-    "docker/src.md",
-    "docker/main.md",
-    "bashrc/plugins/z for bash.md",
     "z/aharo24_149.png",
     "z/aharo24_148.png",
     "z/aharo 2023-06-29 at 9.08.32 AM.png",
