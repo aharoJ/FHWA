@@ -1,6 +1,21 @@
 
 
+## Straight Forward
+### Terminal 1
+./start_carla.sh
 
+### Terminal 2 - Run openpilot and bridge in one Docker:
+./start_openpilot_docker.sh
+
+### Advance
+    # Terminal 2:
+    ./launch_openpilot.sh
+    # Terminal 3
+    ./bridge.py
+
+
+
+## Main Issue and Fixes 
 -  https://github.com/commaai/openpilot/issues/27743
 >	Running openpilot in Carla, manual control and model inference is w... Describe the bug I run openpilot with carla simulation, and end up with openpilot not able to control the car. launch start_carla.sh launch launch_openpilot.sh launch bridge.py --dual_camera press ...
 

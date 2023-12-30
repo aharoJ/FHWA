@@ -22,16 +22,13 @@
   - <http://www.ninepluswifi.com/view/linux-ubuntumintkali-drivers.html>
 
 #### remove snap
-
  `snap remove code`
 
 #### Normal
-
  `sudo apt purge code`
  `sudo apt autoremove`
 
 #### Downloading dpkg
-
  `sudo dpkg -i [file_name.deb`
 
 ### issues
