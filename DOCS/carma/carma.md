@@ -29,3 +29,13 @@ GOAL:
 - Transform transportation, improving efficiency and safety through automated vehicles working together and with roadway infrastructure.
 -  Vehicles communicating with each other via DSRC or cellular means. They can also communicate with roadside infrastructure using DSRC or cellular. The communication among software components within a single vehicle, however, is mostly done via the Robot Operating System (ROS) framework. There are no ROS communications between neighboring vehicles.
 
+
+
+### src 
+- links
+	- https://usdot-carma.atlassian.net/wiki/spaces/CRMSIM/overview
+- setup
+	- https://usdot-carma.atlassian.net/wiki/spaces/CRMSIM/pages/2303393803/Setup+Instructions+Documentation+CARMA-simulation
+- how to set up carma with sim
+	- https://usdot-carma.atlassian.net/wiki/spaces/CRMSIM/pages/2419916803/Setup+Instructions+Documentation+CARMA-CARLA+integration
+

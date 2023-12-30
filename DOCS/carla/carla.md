@@ -26,7 +26,14 @@
 
 
 
+## make launch 
+- set up error with carla setup.sh
+	- [https://github.com/carla-simulator/carla/issues/5305#issuecomment-1114029573](https://github.com/carla-simulator/carla/issues/5305#issuecomment-1114029573 "https://github.com/carla-simulator/carla/issues/5305#issuecomment-1114029573")
 
 
 
-
+## map 
+- maps
+	- https://carla.readthedocs.io/en/latest/core_map/
+	- custom map
+		- https://carla.readthedocs.io/en/latest/tuto_M_custom_map_overview/

@@ -1,7 +1,7 @@
 # Ignore gen files
 dev/
 link_fixer.py
-
+**00/
 # ignore ".trash" directory
 /.trash
 
