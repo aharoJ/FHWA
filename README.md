@@ -16,6 +16,9 @@
 
 ![Reverse Engineering OpenPilot](<z/aharo 2023-07-31 at 2.34.10 AM.png>)
 
+![alt text](z/openpilot.gif)
+
+
 <h1 align="center"> <b> Setup </b> </h1>
 
 > copy and paste the CLI command into your OS ( macos | linux | debian )
@@ -32,9 +35,6 @@ cd ~ && mkdir aharoJ && git clone https://github.com/aharoJ/FHWA.git && cd FHWA 
 sudo apt update && sudo apt-get install build-essential && sudo apt install git -y && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.bashrc && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)" && cd ~ && mkdir aharoJ && git clone https://github.com/aharoJ/FHWA.git && cd FHWA && chmod +x setup.sh && ./setup.sh  && sudo snap install obsidian --classic
 ```
 
-### windows
-
-- 🤢 in progress
 
 <h1 align="center"> <b> Tree </b> </h1>
 
