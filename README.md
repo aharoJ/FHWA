@@ -71,6 +71,6 @@ Finally, run the script:
 - docker
 - python
 
-<h2 align="center"> <b> Openpilot | Code </b> </h2>
+<h2 align="center"> <b> Openpilot </b> </h2>
 
 ![Reverse Engineering OpenPilot](<z/aharo 2023-07-31 at 2.34.10 AM.png>)
