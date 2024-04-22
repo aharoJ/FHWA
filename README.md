@@ -14,7 +14,7 @@
 </div>  
 <!-- END -->
 
-### Integrating Openpilot into a Car Simaltuon
+### Integrating Openpilot into an automated car Simulation
 
 ![alt text](z/openpilot.gif)
 
@@ -71,6 +71,6 @@ Finally, run the script:
 - docker
 - python
 
-### OpenPilot
+<h2 align="center"> <b> Openpilot | Code </b> </h2>
 
 ![Reverse Engineering OpenPilot](<z/aharo 2023-07-31 at 2.34.10 AM.png>)
