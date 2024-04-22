@@ -14,33 +14,39 @@
 </div>  
 <!-- END -->
 
-![Reverse Engineering OpenPilot](<z/aharo 2023-07-31 at 2.34.10 AM.png>)
+### Integrating Openpilot into a Car Simaltuon
 
 ![alt text](z/openpilot.gif)
 
+---
 
-<h1 align="center"> <b> Setup </b> </h1>
+## How to run
 
-> copy and paste the CLI command into your OS ( macos | linux | debian )
+First, clone the repository to your local machine:
 
-### macos
-
-```
-cd ~ && mkdir aharoJ && git clone https://github.com/aharoJ/FHWA.git && cd FHWA && chmod +x setup.sh && ./setup.sh 
-```
-
-### debian | ubuntu
-
-```
-sudo apt update && sudo apt-get install build-essential && sudo apt install git -y && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.bashrc && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)" && cd ~ && mkdir aharoJ && git clone https://github.com/aharoJ/FHWA.git && cd FHWA && chmod +x setup.sh && ./setup.sh  && sudo snap install obsidian --classic
+```sh
+git clone https://github.com/aharoJ/FHWA
 ```
 
+```sh
+cd FHWA
+```
 
-<h1 align="center"> <b> Tree </b> </h1>
+Then, make the script executable:
 
-## documentation
+```sh
+chmod +x setup.sh
+```
 
-### `~/aharoJ/FHWA/DOCS`
+Finally, run the script:
+
+```sh
+./setup.sh
+```
+
+<h1 align="center"> <b> Documentaion | Code </b> </h1>
+
+## ~/user/FHWA/DOCS
 
 - docker
 - carla
@@ -55,17 +61,16 @@ sudo apt update && sudo apt-get install build-essential && sudo apt install git 
 - bash
 - cuda | nvidia
 
-## code stuff
+---
 
-### `~/aharoJ/FHWA/CODE`
+## ~/user/FHWA/CODE
 
 - bashrc
 - fish
-- vim
 - tmux
 - docker
 - python
 
-## dev notes
+### OpenPilot
 
-> In summary, my script starts by installing Homebrew, which is the macOS package manager. Then, it handles the installation of Obsidian and yakitrak/obs using Homebrew on macOS. For Linux users, it prompts to choose between installing Obsidian using Homebrew or Snap (recommend Homebrew!). After that, the script goes on to clone my GitHub repository. It takes care of opening Obsidian and various code editors in their designated directories.
+![Reverse Engineering OpenPilot](<z/aharo 2023-07-31 at 2.34.10 AM.png>)
