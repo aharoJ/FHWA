@@ -20,25 +20,25 @@
 
 ---
 
-## How to run
+## how to run
 
-First, clone the repository to your local machine:
+first, clone the repository to your local machine:
 
 ```sh
-git clone https://github.com/aharoJ/FHWA
+git clone https://github.com/aharoj/fhwa
 ```
 
 ```sh
-cd FHWA
+cd fhwa
 ```
 
-Then, make the script executable:
+then, make the script executable:
 
 ```sh
 chmod +x setup.sh
 ```
 
-Finally, run the script:
+finally, run the script:
 
 ```sh
 ./setup.sh
