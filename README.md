@@ -14,8 +14,7 @@
 </div>  
 <!-- END -->
 
-### Integrating Openpilot into an automated car Simulation
-
+### Integrating Openpilot into autonomous driving simulations
 ![alt text](z/openpilot.gif)
 
 ---
