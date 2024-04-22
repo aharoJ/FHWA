@@ -14,7 +14,8 @@
 </div>  
 <!-- END -->
 
-### Integrating Openpilot into autonomous driving simulations
+<h2 align="center"> <b> Integrating Openpilot into autonomous driving simulations </b> </h2>
+
 ![alt text](z/openpilot.gif)
 
 ---
