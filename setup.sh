@@ -7,34 +7,21 @@ install_homebrew() {
 
 # Function to install Homebrew on Linux
 install_homebrew_linux() {
-    sudo apt update
-    sudo apt-get install build-essential
-    sudo apt install git -y
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.bashrc
-    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+	sudo apt update
+	sudo apt-get install build-essential
+	sudo apt install git -y
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+	(
+		echo
+		echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"'
+	) >>/home/$USER/.bashrc
+	eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 }
 
-############################################################################################################
 # Function to install Obsidian using Snap (Linux)
 install_obsidian_snap() {
-    sudo snap install obsidian --classic
-    echo "Obsidian installed using Snap."
-}
-# Prompt the user to install Obsidian using Snap on Linux
-if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-    prompt_obsidian_installation_linux
-    install_obsidian_snap # Call the function to install using Snap
-fi
-############################################################################################################
-
-# Function to check if Homebrew is installed
-check_homebrew_installed() {
-    if ! command -v brew &>/dev/null; then
-        return 1
-    else
-        return 0
-    fi
+	sudo snap install obsidian --classic
+	echo "Obsidian installed using Snap."
 }
 
 # Function to check if Homebrew is installed
@@ -82,7 +69,7 @@ install_obsidian_homebrew() {
 	fi
 }
 
-# Function to ask Linux users about installing obs with Homebrew
+# Function to ask Linux users about installing Obsidian with Homebrew
 prompt_obsidian_installation_linux() {
 	read -p "Do you want to install Obsidian using Homebrew? (y/n): " choice
 	case "$choice" in
@@ -90,67 +77,13 @@ prompt_obsidian_installation_linux() {
 		if check_homebrew_installed; then
 			echo "Homebrew is already installed. Proceeding with Obsidian installation."
 		else
-			install_homebrew
+			install_homebrew_linux
 		fi
 		install_obsidian_homebrew
 		;;
 	n | N) echo "Okay, you can use Snap to install Obsidian. Note that you won't have the obs command-line tool." ;;
 	*) echo "Invalid choice. You can use Snap to install Obsidian. Note that you won't have the obs command-line tool." ;;
 	esac
-}
-
-# Clone the repository and navigate to the specified path
-clone_repo_and_open_obsidian() {
-	# Set the repository URL
-	repo_url="https://github.com/aharoJ/FHWA.git"
-
-	# Check if ~/aharoJ directory already exists
-	if [ -d ~/aharoJ ]; then
-		echo "The ~/aharoJ directory already exists."
-		    cd ~/aharoJ
-	else
-		mkdir -p ~/aharoJ
-		echo "Created the ~/aharoJ directory."
-	fi
-
-	# Clone the repository
-	cd ~/aharoJ
-	git clone "$repo_url"
-
-	# Navigate to the specified path and open Obsidian
-	cd ~/aharoJ/FHWA/DOCS
-
-	# Check the operating system
-	if [[ "$OSTYPE" == "darwin"* ]]; then
-		# macOS
-		open .
-	elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
-		# Linux (Ubuntu)
-		xdg-open .
-	else
-		echo "Unsupported operating system."
-		exit 1
-	fi
-
-
-	# Navigate to the specified path
-	cd ~/aharoJ/FHWA/CODE
-
-	# Check which editors are available and open the directory
-	if command -v code &> /dev/null; then
-		# Visual Studio Code is available
-		code .
-	elif command -v subl &> /dev/null; then
-		# Sublime Text is available
-		subl .
-	elif command -v vim &> /dev/null; then
-		# Vim is available
-		vim .
-	else
-		echo "No supported editors found. You can manually open the directory."
-	fi
-
-
 }
 
 # Main script execution starts here
@@ -175,8 +108,4 @@ else
 	exit 1
 fi
 
-# Clone the repository and open Obsidian
-echo "Cloning repository and opening Obsidian..."
-clone_repo_and_open_obsidian
-
-echo "Setup completed! Enjoy using Obsidian to access your Markdown notes."
+echo "!!!!!!Setup completed!!!!!!! Please follow the README instructions to clone the repository and configure your environment."
