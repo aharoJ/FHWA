@@ -1,5 +1,0 @@
-# my federal work
-.
-.
-.
-\(-_-)/
