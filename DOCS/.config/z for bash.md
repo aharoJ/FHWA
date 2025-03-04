@@ -3,21 +3,25 @@ To add the "rupa/z" script to your Ubuntu bash, you can follow these steps:
 1. Open a terminal on your Ubuntu system.
 
 2. Navigate to a directory where you want to download the "z" script. For example, you can use the following command to navigate to your home directory:
+
    ```
    cd ~
    ```
 
 3. Download the "z" script from the GitHub repository using the following command:
+
    ```
    wget https://raw.githubusercontent.com/rupa/z/master/z.sh
    ```
 
 4. Rename the downloaded script to remove the ".sh" extension (optional but recommended):
+
    ```
    mv z.sh z
    ```
 
 5. Make the script executable by running the following command:
+
    ```
    chmod +x z
    ```
@@ -25,6 +29,7 @@ To add the "rupa/z" script to your Ubuntu bash, you can follow these steps:
 6. Now, you have a couple of options to integrate the "z" script into your Ubuntu bash.
 
    Option A: Add it to your user's `.bashrc` file:
+
    - Open your `.bashrc` file using a text editor:
      ```
      nano ~/.bashrc
@@ -36,6 +41,7 @@ To add the "rupa/z" script to your Ubuntu bash, you can follow these steps:
    - Save the file and exit the text editor.
 
    Option B: Add it to your user's `.bash_profile` file (if `.bashrc` doesn't exist):
+
    - Open your `.bash_profile` file using a text editor:
      ```
      nano ~/.bash_profile
