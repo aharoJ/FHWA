@@ -1,6 +1,5 @@
+# OPENPILOT NOT WORKING
 
-# OPENPILOT  NOT WORKING
->
 > EXTREMLY IMPORTANT
 
 - <https://github.com/pyenv/pyenv/issues/1737>
@@ -13,7 +12,7 @@ First of all see the situation with this command
 poetry env list
 ```
 
-If you have an output like this: _**project_name-QI_LjVaV-py3.9 (Activated)**_
+If you have an output like this: ***project_name-QI_LjVaV-py3.9 (Activated)***
 
 you may want to get rid of this env.
 
@@ -37,7 +36,7 @@ poetry env list
 
 should return `nothing`.
 
-``` java
+```java
 if issue: drop to src ? continue;
 ```
 
@@ -47,7 +46,7 @@ if issue: drop to src ? continue;
 which python3
 ```
 
-(_optional_)  and, if the version is ok, you use this same exact output of the path of python, to tell to poetry (Example):
+(_optional_) and, if the version is ok, you use this same exact output of the path of python, to tell to poetry (Example):
 
 ```python
 poetry env use /usr/bin/python3
@@ -56,7 +55,7 @@ poetry env use /usr/bin/python3
 `Do again`
 
 ```python
-poetry env info 
+poetry env info
 ```
 
 to be sure that is using the version of the python you want.
@@ -67,15 +66,12 @@ You can continue with
 poetry install
 ```
 
-### walktrough  images
+### walktrough images
 
 - ![](../../../../z/aharo%202023-06-29%20at%209.08.32%20AM.png)
 
-
-
-
 ### POETRY INSTALL
->
+
 > I strongly advise to use 3.8.#
 
 - [use 3.8 for openpilot](https://stackoverflow.com/questions/59810276/poetry-doesnt-use-the-correct-version-of-python)
